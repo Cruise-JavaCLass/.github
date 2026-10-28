@@ -4,95 +4,80 @@
 
 <br />
 
-**Cruise Maritime Operations & Hospitality Platform:** An open enterprise ecosystem engineered for luxury cruise fleets. Seamlessly unifying high-concurrency itinerary navigation, excursion bookings, maritime safety protocols, and offline-first cashless POS.
+### Enterprise Maritime Cloud & Edge Operations
+
+Cruise Hospitality Technology delivers an open-standard software infrastructure for passenger cruise liners. Engineered with strict fault tolerance, offline-first edge reliability, and sub-second maritime communications.
 
 <br />
 
 <p align="center">
-  <a href="https://github.com/Cruise-JavaCLass/Cruise-api">
-    <img src="https://img.shields.io/badge/Java_21-007396?style=flat&logo=openjdk&logoColor=white" alt="Java 21" />
-  </a>
-  <a href="https://github.com/Cruise-JavaCLass/Cruise-api">
-    <img src="https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat&logo=springboot&logoColor=white" alt="Spring Boot" />
-  </a>
-  <a href="https://github.com/Cruise-JavaCLass/Cruise-web">
-    <img src="https://img.shields.io/badge/React_19-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React 19" />
-  </a>
-  <a href="https://github.com/Cruise-JavaCLass/Cruise-web">
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-  </a>
-  <a href="https://github.com/Cruise-JavaCLass/Cruise-web">
-    <img src="https://img.shields.io/badge/Three.js-000000?style=flat&logo=threedotjs&logoColor=white" alt="Three.js" />
-  </a>
-  <a href="https://github.com/Cruise-JavaCLass/Cruise-pos">
-    <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white" alt="Kotlin" />
-  </a>
-  <a href="https://github.com/Cruise-JavaCLass/Cruise-pos">
-    <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat&logo=android&logoColor=white" alt="Compose" />
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-C5A572?style=flat&logo=open-source-initiative&logoColor=white" alt="License" />
-  </a>
+  <a href="https://github.com/Cruise-JavaCLass/Cruise-api"><img src="https://img.shields.io/badge/API_Core-Java_21_%7C_Spring_Boot_4-007396?style=flat-square&logo=openjdk&logoColor=white" alt="API" /></a>
+  &nbsp;
+  <a href="https://github.com/Cruise-JavaCLass/Cruise-web"><img src="https://img.shields.io/badge/Web_Suite-React_19_%7C_TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="Web" /></a>
+  &nbsp;
+  <a href="https://github.com/Cruise-JavaCLass/Cruise-pos"><img src="https://img.shields.io/badge/Edge_POS-Android_%7C_Jetpack_Compose-3DDC84?style=flat-square&logo=android&logoColor=white" alt="POS" /></a>
+  &nbsp;
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-D4AF37?style=flat-square" alt="License" /></a>
 </p>
 
 </div>
 
 ---
 
-### Architecture & Repositories
+### Core Repositories & Subsystems
 
 <table>
   <thead>
-    <tr>
-      <th width="30%">Repository</th>
-      <th width="35%">Technology Stack</th>
-      <th width="35%">Domain & Scope</th>
+    <tr style="border-bottom: 2px solid #30363d;">
+      <th align="left" width="28%">Repository</th>
+      <th align="left" width="32%">Key Capabilities</th>
+      <th align="left" width="40%">Technology Stack</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>
+      <td align="left">
         <a href="https://github.com/Cruise-JavaCLass/Cruise-api">
           <b>Cruise-api</b>
-        </a><br />
-        <sub>Backend Engine & Gateway</sub>
+        </a>
+        <br />
+        <small style="color: #8b949e;">Central Maritime Engine</small>
       </td>
-      <td>
-        <code>Java 21</code> &bull; <code>Spring Boot 4.x</code><br />
-        <code>Spring Security</code> &bull; <code>MySQL</code> &bull; <code>Redis</code>
+      <td align="left">
+        Itinerary navigation engine, cabin ledger reconciliation, excursion roster, and gateway security.
       </td>
-      <td>
-        High-throughput API Gateway, daily itinerary navigation, excursion booking engine, and folio billing ledger.
+      <td align="left">
+        <code>Java 21</code> &bull; <code>Spring Boot 4.x</code> &bull; <code>MySQL</code> &bull; <code>Redis</code> &bull; <code>Docker</code>
       </td>
     </tr>
     <tr>
-      <td>
+      <td align="left">
         <a href="https://github.com/Cruise-JavaCLass/Cruise-web">
           <b>Cruise-web</b>
-        </a><br />
-        <sub>Operations Deck & Guest Experience</sub>
+        </a>
+        <br />
+        <small style="color: #8b949e;">Operations & Guest Experience</small>
       </td>
-      <td>
-        <code>React 19</code> &bull; <code>TypeScript</code> &bull; <code>Vite</code><br />
-        <code>Tailwind CSS 4</code> &bull; <code>Three.js</code> &bull; <code>TanStack Query</code>
+      <td align="left">
+        Fleet operations deck, 3D interactive vessel deck plans, passenger booking hub, and emergency muster.
       </td>
-      <td>
-        Fleet command dashboard, interactive 3D vessel digital twin, guest mobile-first portal, and real-time muster.
+      <td align="left">
+        <code>React 19</code> &bull; <code>TypeScript</code> &bull; <code>Vite</code> &bull; <code>Tailwind 4</code> &bull; <code>Three.js</code>
       </td>
     </tr>
     <tr>
-      <td>
+      <td align="left">
         <a href="https://github.com/Cruise-JavaCLass/Cruise-pos">
           <b>Cruise-pos</b>
-        </a><br />
-        <sub>Mobile Edge Point of Sale</sub>
+        </a>
+        <br />
+        <small style="color: #8b949e;">Edge Handheld POS</small>
       </td>
-      <td>
-        <code>Android</code> &bull; <code>Kotlin</code> &bull; <code>Jetpack Compose</code><br />
-        <code>Room DB</code> &bull; <code>NFC / RFID</code> &bull; <code>Coroutines</code>
+      <td align="left">
+        High-availability cashless checkout, RFID wristband tap, offline transaction spooling, and satellite batch sync.
       </td>
-      <td>
-        Offline-first handheld POS for onboard lounges and dining, with satellite-adaptive batch synchronization.
+      <td align="left">
+        <code>Kotlin</code> &bull; <code>Jetpack Compose</code> &bull; <code>Room DB</code> &bull; <code>Coroutines</code> &bull; <code>NFC</code>
       </td>
     </tr>
   </tbody>
@@ -108,39 +93,42 @@ graph LR
     classDef gateway fill:#102A43,stroke:#397C80,stroke-width:2px,color:#fff;
     classDef service fill:#071727,stroke:#64B5F6,stroke-width:1.5px,color:#fff;
 
-    WEB["🖥️ Cruise-web<br/>(Command Deck & Guest Portal)"]:::client
-    POS["📱 Cruise-pos<br/>(Mobile Edge Terminal)"]:::client
+    WEB["Cruise-web<br/>Operations & Guest Portal"]:::client
+    POS["Cruise-pos<br/>Edge Offline Terminal"]:::client
 
-    GW["🚪 API Gateway<br/>(:8080)"]:::gateway
+    GW["API Gateway<br/>Port :8080"]:::gateway
 
-    WEB -->|JWT / REST API| GW
-    POS -->|Offline Batch Sync| GW
+    WEB -->|JWT / HTTPS| GW
+    POS -->|Encrypted Batch Sync| GW
 
-    subgraph Core ["Enterprise Maritime Services"]
-        GW --> ITIN["🚢 Itinerary Service"]:::service
-        GW --> ACT["🎟️ Excursion & Activity"]:::service
-        GW --> POSS["💳 POS & Guest Ledger"]:::service
-        GW --> AUTH["🔐 Auth & Access Control"]:::service
+    subgraph Cluster ["Core Maritime Services"]
+        GW --> ITIN["Itinerary Service"]:::service
+        GW --> ACT["Excursion & Activities"]:::service
+        GW --> POSS["POS & Cabin Ledger"]:::service
+        GW --> AUTH["Auth & Security"]:::service
     end
 ```
 
 ---
 
-### Resources & Governance
+### Developer & Governance Resources
 
 <table>
   <tr>
-    <td width="33%" align="center">
-      <b>📖 Documentation & APIs</b><br />
-      Explore microservices contracts and API schemas in <a href="https://github.com/Cruise-JavaCLass/Cruise-api">Cruise-api</a>.
+    <td width="33%" align="left">
+      <h4>Documentation</h4>
+      <p>Microservice contracts, schema definitions, and OpenAPI documentation.</p>
+      <a href="https://github.com/Cruise-JavaCLass/Cruise-api">View Architecture &rarr;</a>
     </td>
-    <td width="33%" align="center">
-      <b>🤝 Contributing</b><br />
-      Read our standards and branching strategy in <a href="CONTRIBUTING.md">CONTRIBUTING.md</a>.
+    <td width="33%" align="left">
+      <h4>Contributing</h4>
+      <p>Engineering workflows, PR templates, and Git branching guidelines.</p>
+      <a href="CONTRIBUTING.md">Read Guidelines &rarr;</a>
     </td>
-    <td width="33%" align="center">
-      <b>🛡️ Security & Compliance</b><br />
-      Report vulnerabilities and review muster policies in <a href="SECURITY.md">SECURITY.md</a>.
+    <td width="33%" align="left">
+      <h4>Security & SOLAS</h4>
+      <p>Responsible disclosure policies and maritime safety compliance standards.</p>
+      <a href="SECURITY.md">Review Protocols &rarr;</a>
     </td>
   </tr>
 </table>
@@ -149,7 +137,7 @@ graph LR
 
 <div align="center">
 
-**[Cruise Hospitality Technology](https://github.com/Cruise-JavaCLass)** &bull; Engineered for Luxury Maritime Operations  
+**[Cruise Hospitality Technology](https://github.com/Cruise-JavaCLass)** &bull; Enterprise Maritime Systems  
 <sub>Cruise Management System &copy; 2026. Distributed under the MIT License.</sub>
 
 </div>

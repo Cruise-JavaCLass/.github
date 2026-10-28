@@ -8,9 +8,32 @@
 
 <br />
 
-| Backend Cluster | Web & 3D Portal | Mobile POS Terminal | Open Source |
-| :---: | :---: | :---: | :---: |
-| [![Cruise-api](https://img.shields.io/badge/Cruise--api-Java_21_%7C_Spring_Boot_4-102A43?style=flat-square&logo=openjdk&logoColor=white&labelColor=0B1F33)](https://github.com/Cruise-JavaCLass/Cruise-api) | [![Cruise-web](https://img.shields.io/badge/Cruise--web-React_19_%7C_TypeScript-102A43?style=flat-square&logo=react&logoColor=61DAFB&labelColor=0B1F33)](https://github.com/Cruise-JavaCLass/Cruise-web) | [![Cruise-pos](https://img.shields.io/badge/Cruise--pos-Kotlin_%7C_Compose-102A43?style=flat-square&logo=android&logoColor=3DDC84&labelColor=0B1F33)](https://github.com/Cruise-JavaCLass/Cruise-pos) | [![License](https://img.shields.io/badge/License-MIT-102A43?style=flat-square&logo=open-source-initiative&logoColor=C5A572&labelColor=0B1F33)](LICENSE) |
+<p align="center">
+  <a href="https://github.com/Cruise-JavaCLass/Cruise-api">
+    <img src="https://img.shields.io/badge/Java_21-007396?style=flat&logo=openjdk&logoColor=white" alt="Java 21" />
+  </a>
+  <a href="https://github.com/Cruise-JavaCLass/Cruise-api">
+    <img src="https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat&logo=springboot&logoColor=white" alt="Spring Boot" />
+  </a>
+  <a href="https://github.com/Cruise-JavaCLass/Cruise-web">
+    <img src="https://img.shields.io/badge/React_19-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React 19" />
+  </a>
+  <a href="https://github.com/Cruise-JavaCLass/Cruise-web">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+  </a>
+  <a href="https://github.com/Cruise-JavaCLass/Cruise-web">
+    <img src="https://img.shields.io/badge/Three.js-000000?style=flat&logo=threedotjs&logoColor=white" alt="Three.js" />
+  </a>
+  <a href="https://github.com/Cruise-JavaCLass/Cruise-pos">
+    <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white" alt="Kotlin" />
+  </a>
+  <a href="https://github.com/Cruise-JavaCLass/Cruise-pos">
+    <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat&logo=android&logoColor=white" alt="Compose" />
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-C5A572?style=flat&logo=open-source-initiative&logoColor=white" alt="License" />
+  </a>
+</p>
 
 </div>
 

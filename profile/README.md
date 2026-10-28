@@ -8,10 +8,9 @@
 
 <br />
 
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.x_%7C_Java_21-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://github.com/Cruise-JavaCLass/Cruise-api)
-[![React 19](https://img.shields.io/badge/React_19-TypeScript_%7C_Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/Cruise-JavaCLass/Cruise-web)
-[![Android Compose](https://img.shields.io/badge/Android-Kotlin_%7C_Jetpack_Compose-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Cruise-JavaCLass/Cruise-pos)
-[![License: MIT](https://img.shields.io/badge/License-MIT-C5A572.svg?style=for-the-badge)](LICENSE)
+| Backend Cluster | Web & 3D Portal | Mobile POS Terminal | Open Source |
+| :---: | :---: | :---: | :---: |
+| [![Cruise-api](https://img.shields.io/badge/Cruise--api-Java_21_%7C_Spring_Boot_4-102A43?style=flat-square&logo=openjdk&logoColor=white&labelColor=0B1F33)](https://github.com/Cruise-JavaCLass/Cruise-api) | [![Cruise-web](https://img.shields.io/badge/Cruise--web-React_19_%7C_TypeScript-102A43?style=flat-square&logo=react&logoColor=61DAFB&labelColor=0B1F33)](https://github.com/Cruise-JavaCLass/Cruise-web) | [![Cruise-pos](https://img.shields.io/badge/Cruise--pos-Kotlin_%7C_Compose-102A43?style=flat-square&logo=android&logoColor=3DDC84&labelColor=0B1F33)](https://github.com/Cruise-JavaCLass/Cruise-pos) | [![License](https://img.shields.io/badge/License-MIT-102A43?style=flat-square&logo=open-source-initiative&logoColor=C5A572&labelColor=0B1F33)](LICENSE) |
 
 </div>
 

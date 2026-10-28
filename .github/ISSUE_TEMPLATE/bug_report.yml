@@ -1,0 +1,46 @@
+name: 🐛 Bug Report
+description: Create a report to help us improve the Cruise Management System
+title: "[BUG]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: subsystem
+    attributes:
+      label: Affected Subsystem
+      description: Which part of the Cruise Management System is experiencing the issue?
+      options:
+        - "Cruise-api (Spring Boot Backend)"
+        - "Cruise-web (React 19 / TypeScript Web Portal)"
+        - "Cruise-pos (Android Kotlin POS Terminal)"
+        - "Cross-system Offline Sync / Gateway"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Please copy and paste any relevant logs here.
+      render: shell

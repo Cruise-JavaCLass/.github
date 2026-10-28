@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🚢 Operational Engineering Discussion
+    url: https://github.com/orgs/Cruise-JavaCLass/discussions
+    about: Ask questions or discuss architecture with the engineering team.
+  - name: 🛡️ Security Vulnerability Reporting
+    url: https://github.com/Cruise-JavaCLass/.github/blob/main/SECURITY.md
+    about: Privately report potential security or SOLAS safety vulnerabilities.
